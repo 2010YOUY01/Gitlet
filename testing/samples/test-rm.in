@@ -1,0 +1,15 @@
+# Basic rm operations
+> init
+<<<
+E .gitlet
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> rm notexist.txt
+No reason to remove the file.
+<<<
+> rm wug.txt
+<<<
+> rm wug.txt
+No reason to remove the file.
+<<<

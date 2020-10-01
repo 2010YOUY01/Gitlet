@@ -1,0 +1,44 @@
+> init
+<<<
++ wug.txt wug.txt
++ wug2.txt wug2.txt
++ wug3.txt wug3.txt
++ goodbye.txt goodbye.txt
++ junk.txt junk.txt
++ random.stuff random.stuff
+# add 3 files, then commit
+> add goodbye.txt
+<<<
+> add junk.txt
+<<<
+> add wug3.txt
+<<<
+> commit "fist commit"
+<<<
+# Make some changes
+> rm goodbye.txt
+<<<
+> add wug.txt
+<<<
+> add wug2.txt
+<<<
+- junk.txt
++ wug3.txt notwug.txt
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+wug.txt
+wug2.txt
+
+=== Removed Files ===
+goodbye.txt
+
+=== Modifications Not Staged For Commit ===
+junk.txt (deleted)
+wug3.txt (modified)
+
+=== Untracked Files ===
+random.stuff
+<<<

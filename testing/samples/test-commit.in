@@ -1,0 +1,33 @@
+# Basic commit
+> init
+<<<
+E .gitlet
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit
+Please enter a commit message.
+<<<
+> commit "First commit"
+<<<
+> commit "Second commit"
+No changes added to the commit.
+<<<
+> rm wug.txt
+<<<
+* wug.txt
+> commit "Remove wug.txt"
+<<<
+
+# add -> rm -> commit
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> rm wug.txt
+<<<
+E wug.txt
+> commit "Add and remove"
+No changes added to the commit.
+<<<
+
+
